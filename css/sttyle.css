@@ -1,0 +1,166 @@
+
+/* no utilice reseteo por que no me gusto el resultado que daba. */
+
+body{
+    background-color: rgb(238, 238, 188);
+}
+
+section{
+    background-color: rgb(231, 238, 188);
+}
+
+/* CCS DE SECCION NUESTROS CAFES */
+.imagencafe{
+    background-color: rgb(231, 238, 188);
+    height: 500px;
+
+    background-image: url(../images/cafecolombia.jpeg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.cafeperu {
+    background-color: rgb(231, 238, 188);
+    height: 500px;
+
+    background-image: url(../images/cafe\ peru.jpeg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.cafebrasil {
+    background-color: rgb(231, 238, 188);
+    height: 500px;
+
+    background-image: url(../images/cafe\ brasil.jpeg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+/*  CSS DE INDEX */
+.caja{
+width:600px ;
+overflow: auto;
+}
+
+.titulo {
+    padding-left: 550px;
+    
+}
+
+.fotoindex{
+    padding-left: 400px;
+}
+
+/*  CSS FOOTER */
+.mapa{
+    height: 120px;
+    width: 120px;
+    background-size: contain;
+}
+
+.footermodif {
+    display:inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.margin_auto { 
+    margin:auto;
+}
+
+.margin{
+    display: flex;
+    height: 100px;
+    width: 200px
+}
+
+ul.ulnab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.linab {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navar{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* probamos tarjetas de nuestros cafes */
+
+.tarjetas {
+    border: 3px solid black;
+    width: 350px;
+    height:490px
+    border-radius 20px;
+}
+
+.cuerpotarjeta{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrousel-tarjetas{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav  ul{
+    display: flex;
+    gap: 20px;
+}
+
+body header{
+    background-color: rgba(238, 209, 45, 0.747);
+;}
+
+.aline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portadanuestros{
+    background-image: url(../images/granoscafe.jpg);
+
+}
+
+/* DISPOSITIVO MOVIL */
+img{
+    max-width: 100%;
+}
+
+.galeriamovil{
+    text-align: center;
+    padding: 16px;
+
+}
+
+@media (min-width:768px){}
+
+.galeriamovil2{
+    display: grid;
+    grid-template-columns: (50% 50%);
+    grid-template-rows:(1fr 1fr)
+    
+}
+.galeriamovil2 img{
+    height: 100%;
+    width: 100%;
+}
+
+@media(min-width: 1200px){}
